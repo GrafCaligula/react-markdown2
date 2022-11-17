@@ -3,5 +3,25 @@
 }
 
 body {
-  margin: 0;  
+  margin: 0;
+  background: teal;  
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#editor {
+  width: 400px;
+  height: 200px;
+}
+
+#preview {
+  min-width: 50%;
+  max-width: 100%;
+  min-height: 500px;
+  background-color: aqua;
 }
