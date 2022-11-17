@@ -9,7 +9,7 @@ export default function App() {
     setText(event.target.value);
   }
 
-  const markdown = marked(text);
+  const markdown = marked(text, {breaks: true});
 
   return (
     <div>
