@@ -1,20 +1,17 @@
-
 const data = `# Welcome to my React Markdown Previewer!
 
 ## This is a sub-heading...
 ### And here's some other cool stuff:
 
-Heres some code, ``<div></div>``, between 2 backticks.
+Heres some code, \`<div></div>\`, between 2 backticks.
 
-```
+\`\`\`
 // this is multi-line code:
 
-`function anotherExample(firstLine, lastLine) {
-  if (firstLine == '````' && lastLine == '````') {
-    return multiLineCode;
-  }
-}`
-```
+let x = 1;
+let y = 2;
+let z = x + y;
+\`\`\`
 
 You can also make text **bold**... whoa!
 Or _italic_.
@@ -43,7 +40,5 @@ And here. | Okay. | I think we get it.
 
 ![freeCodeCamp Logo](https://cdn.freecodecamp.org/testable-projects-fcc/images/fcc_secondary.svg)
 `
-
-
 
 export default data;
